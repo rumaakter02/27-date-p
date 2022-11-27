@@ -1,0 +1,48 @@
+body{
+    background: url(./assets/image/bg_main.gif) center;
+}
+.cont{
+    width: 996px;
+    margin: 0 auto;
+}
+/* topbar start */
+.topbar{
+    background: rgb(111, 39, 144);
+    height: 30px;
+    color: white;
+    font-size: 15px;
+    line-height: 30px;
+    border-bottom: 4px solid green;
+}
+.topbar_right a{
+    text-decoration: none;
+    color: white;
+} 
+/* topbar end */
+/* body start */
+.main-body{
+    float: left;
+    width: 59%;
+}
+.banner{
+    background: white;
+    border: 2px solid red;
+}
+.banner img{
+    width: 557px;
+    height: 280px;
+    margin: 10px;
+}
+/* body end */
+/* menu start */
+.navbar ul li a{
+    border-right: 1px solid rgb(154, 143, 143);
+}
+.navbar ul li a:hover{
+    background: rgb(135, 26, 90);
+    padding: 10px;
+}
+.sidebar-right h5{
+    background-color: green;
+}
+/* menu end */
